@@ -1,0 +1,25 @@
+{
+  "name": "10x-assignment2",
+  "version": "1.0.0",
+  "description": "\"Create a REST API backend service using Nodejs and Express\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarhan786/10x-assignment2.git"
+  },
+  "author": "SAM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarhan786/10x-assignment2/issues"
+  },
+  "homepage": "https://github.com/Sarhan786/10x-assignment2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  }
+}
