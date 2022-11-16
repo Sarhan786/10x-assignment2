@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
  const postSchema = new Schema({
     title: String, 
     body: String,
-    image: URL,
+    image: String,
     user : {type : Schema.Types.ObjectId, ref: "User"}
  }, {timestamps : true})
 
